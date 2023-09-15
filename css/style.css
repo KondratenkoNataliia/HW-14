@@ -381,7 +381,7 @@
   width: 300px;
   padding-bottom: 159px;
 }
-.provider__link:hover svg {
+.provider__link:hover circle {
   stroke: #F0145A;
 }
 
