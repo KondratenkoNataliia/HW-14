@@ -1,0 +1,54 @@
+.trust {
+    &__title {
+        color: #323264;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        margin: 0 -30px;
+    }
+    // &__logo-link {
+    //         align-items: center;
+    //         padding: 44px 89px;
+    //         display: block;
+    //         width: 100%;
+    
+    
+    &__logo-hillel {
+        background-color: $darkblue;
+        padding: 36px 80px;
+        display: block;
+    }
+    &__logo-wannabiz {
+        background-color: $darkgrey;
+        padding: 44px 89px;
+        display: block;
+    }
+    &__logo-tapgerine {
+        background-color: $orange;
+        padding: 38px 99px;
+        display: block;
+    }
+    &__logo-3dlook {
+        background-color: $violet;
+        padding: 38px 99px;
+        display: block;
+    }
+    &__logo-orangear {
+        background-color: $orange;
+        padding: 38px 100px;
+        display: block;
+    }
+    &__logo-adtellig {
+        background-color: $lightbeige;
+        padding: 38px 90px;
+        display: block;
+    }
+}
