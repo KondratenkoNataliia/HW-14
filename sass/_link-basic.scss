@@ -6,7 +6,10 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 30px 0 60px;
+    padding-top: 30px;
+    &__svg {
+        vertical-align: middle;
+    }
     &:hover &__svg {
         position: relative;
         transform: translateX(5px);

@@ -1,0 +1,51 @@
+.footer {
+    background: #F5F5FA;
+    text-align: center;
+    &__adress-item {
+        border-top: 2px solid #E6E6F0;
+        padding-top: 30px;
+    }
+    &__adress {
+        color: #323264;
+        line-height: normal;
+        padding-bottom: 10px;
+    }
+    &__map {
+        color: $blue;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    &__fb {
+        text-decoration: none;
+        padding-top: 21px;
+        padding-bottom: 10px;
+        display: block;
+       }
+       &__fb:hover path{
+        fill: $coral;
+    }
+    &__phone {
+        color: #46466E;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        display: block;
+        padding-bottom: 10px;
+    }
+    &__mail {
+        color: $blue;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
+    &__info {
+        color: $greytext;
+        text-align: center;
+        line-height: normal;
+        padding: 30px 0;
+    }
+}
